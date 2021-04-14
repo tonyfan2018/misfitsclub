@@ -47,7 +47,7 @@ app.use("/api/users", users);
 // process.env.port is Heroku's port if you choose to deploy the app there
 
 if(process.env.NODE_ENV === 'production') {
-  app.use(express.static('./client/build'));
+  app.use(express.static('../client/build'));
 
   app.get('*', (req, res) => {
       res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
