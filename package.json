@@ -1,5 +1,5 @@
 {
-  "name": "mern-auth",
+  "name": "misfits",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild":"cd client && npm install && npm run build"
   },
-  "author": "",
+  "author": "tony-santiago-chenchi",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
