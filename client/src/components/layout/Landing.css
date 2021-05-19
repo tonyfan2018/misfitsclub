@@ -1,0 +1,54 @@
+.bgColor {
+    background-color: #10caa6 !important;
+  }
+h4{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;  
+}
+
+
+
+.fontWhiteC{
+    color:white;
+}
+
+.fontGreenC{
+    font-size: 38px;
+    color:white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 8px #20010154;
+
+}
+
+.ContentfontSize{
+    font-size:18px;
+}
+
+.TextCenter{
+    display:flex;
+    justify-content: center;
+}
+
+.contentWidth{
+    width:80%;
+    display: flex;
+    justify-content: center;
+}
+
+.bgimg{
+position:fixed;
+top:0;
+}
+
+.topMa{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
